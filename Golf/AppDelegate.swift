@@ -12,11 +12,32 @@ import CoreData
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    var window: UIWindow?
-
-
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        ST = Settings()
+        
+        Parse.setApplicationId("ZLIHKPqBIVc18EXt6c2yk7Ex8iFWoKcBgwD1JjNy", clientKey: "T0OekrIYHvmeCH1ksbdwanFfWENxy3hTvsFig61y")
+        
+        if PFUser.currentUser() != nil {
+            
+            // USER IS LOGGED IN
+            var newStoryboard = UIStoryboard(name: "In", bundle: nil)
+            var vc = newStoryboard.instantiateViewControllerWithIdentifier("dashboard_ctrl") as DashboardCtrl
+            var nav = UINavigationController(rootViewController: vc)
+            root.rootViewController = nav
+            
+        } else {
+            
+            // USER IS LOGGED OUT
+            var newStoryboard = UIStoryboard(name: "Out", bundle: nil)
+            var vc = newStoryboard.instantiateViewControllerWithIdentifier("login_ctrl") as LoginCtrl
+            var nav = UINavigationController(rootViewController: vc)
+            root.rootViewController = nav
+            
+        }
+        
+        root.makeKeyAndVisible()
+        
         return true
     }
 

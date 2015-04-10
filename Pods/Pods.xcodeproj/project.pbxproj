@@ -1,0 +1,828 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0467E61702365242F67C3DEC /* Pods-Golf-Bolts-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E433F4243D1B9999D225B6C0 /* Pods-Golf-Bolts-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05637E7DDBB3E51A1A1EBA7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 624367883DF559E39D022428 /* Foundation.framework */; };
+		09298694EDEC6A4964DED405 /* Pods-Golf-SwiftAddressBook-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01B1003DBB2F015CFA473693 /* Pods-Golf-SwiftAddressBook-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18B4C0CFDC7B2BFBB4C818C7 /* Pods-Golf-SwiftAddressBook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97DBC0195382A50CBB0E117E /* Pods-Golf-SwiftAddressBook-dummy.m */; };
+		1ADAB4AF92171B2D21FF5A46 /* SwiftAddressBookRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60FB17BD86A77329173E10F /* SwiftAddressBookRecord.swift */; };
+		1C45545885A5EFDC9DF9E477 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD0164C1E074CBD4B82256BC /* AddressBook.framework */; };
+		1ED8F7EE669780C3A3480AED /* SwiftAddressBookPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B22C17D2BBEC355D4DCC6A /* SwiftAddressBookPerson.swift */; };
+		21C92B84C54A39381D03AC20 /* BFAppLinkResolving.h in Headers */ = {isa = PBXBuildFile; fileRef = 7318181B50C588CCB5379C1A /* BFAppLinkResolving.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26490449B3A9D3A47C3B7B43 /* BFAppLinkReturnToRefererView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD06D01E9932262B6FAE4DA0 /* BFAppLinkReturnToRefererView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		26D31BBD585898FDB60BDE4F /* Bolts.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A8AB85070E42E27CB48CAC /* Bolts.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2CFF80AE5F4F6CD3903F9C97 /* BFURL_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = AEAFFE266E83B3FCE6F5080A /* BFURL_Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E8600AFBA802CA48F941378 /* BFAppLinkReturnToRefererController.h in Headers */ = {isa = PBXBuildFile; fileRef = 93205C4CF81CE3C15B871F99 /* BFAppLinkReturnToRefererController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F90D449B0BF1015F6CFF92A /* SwiftAddressBookHelperMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA2DA8D12FAA747A3A44C1E /* SwiftAddressBookHelperMethods.swift */; };
+		31A5CB56B49D881F30E22397 /* BFAppLinkReturnToRefererController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D7C7936B8D1D7F89BDD53E /* BFAppLinkReturnToRefererController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		31BF4386EAC08FA0C7C99780 /* Pods-Golf-Bolts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D90BEAE7224F81D8B6C198 /* Pods-Golf-Bolts-dummy.m */; };
+		3BB85ADE989C055A1DDD11BF /* BFWebViewAppLinkResolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D5BAB804870A5253B9CD5B /* BFWebViewAppLinkResolver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		489B08470DE243AD8B59DA28 /* BFAppLinkNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D8CA0F41288318BF5CD2DF /* BFAppLinkNavigation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4CE7A58E5BEEA6E203B09592 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C07E82BD29E74A222C2F42 /* AddressBookUI.framework */; };
+		4CFA0421C8C74A6EE984A0F4 /* SwiftAddressBookSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F2DD442D9BB4CF3D54BFCD /* SwiftAddressBookSource.swift */; };
+		4E2185BDDC8416BC888AB28A /* BFAppLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC00666573BA3C4B7E883EA /* BFAppLink.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5673BC5C7203D38697F0D6AF /* BFAppLinkTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E4EB9B4EA3136583FD2665 /* BFAppLinkTarget.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6E6D8026B16A1C8AE9B5DDB8 /* BFExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = D9574CAE0FCE1A312CAB13F8 /* BFExecutor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		700B775D029DD7ABDEF70E0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 624367883DF559E39D022428 /* Foundation.framework */; };
+		7221E47E2E4067D6C7436238 /* BFURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 55A0D88588725A470E39FE20 /* BFURL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7461DB6F0E7B7B3DAA480FAD /* SwiftAddressBookWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A93FFAA0A5FB9AD0218C9B5 /* SwiftAddressBookWrapper.swift */; };
+		796A2AC5D2CC274D1D805651 /* BFTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2FB94BCBD9EDE07EFE9148 /* BFTask.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7CE17515B585A9095512E748 /* BoltsVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DC5CE521BD8DB0B91E514AF /* BoltsVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F623F9283ED3774F97DD529 /* BFAppLinkTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = 97965377D0D4AD7B96555243 /* BFAppLinkTarget.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		864CBDC3DCCBEB66F2B8F2F0 /* BFMeasurementEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F42DDBDF8A68EA8D2593CB /* BFMeasurementEvent.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		89E57F560C52B0366B7BD603 /* BFWebViewAppLinkResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 455853631B0FAB99BAED0C37 /* BFWebViewAppLinkResolver.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8F8DCC65B4ADF0AD90FAE14E /* BFMeasurementEvent_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EAB6B7A8ECFADC143DE417C /* BFMeasurementEvent_Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93FE14B2C9EE2592075E4878 /* BFAppLinkReturnToRefererView.h in Headers */ = {isa = PBXBuildFile; fileRef = 26292A75419F6EAFCE50251B /* BFAppLinkReturnToRefererView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		948941940E1B82F27BBFE9FA /* SwiftAddressBookGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC7541B68725A59B6CDB659 /* SwiftAddressBookGroup.swift */; };
+		982D4A18F226F302BB5F3E4D /* Pods-Golf-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B2869D468D313BDFC1D91E /* Pods-Golf-dummy.m */; };
+		9B17EA8CBDA6848CAC03A979 /* BFAppLink_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = FDAF82F1A89AD7E8A09E834B /* BFAppLink_Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A505BFCC8A898B3E0C2D45D2 /* BFTask.h in Headers */ = {isa = PBXBuildFile; fileRef = C6575213C815A382890DCD8A /* BFTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACB6758229795AF81D7A6735 /* BFTaskCompletionSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 873D39822BD210F4BE3D62E7 /* BFTaskCompletionSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE6BD0D8EF7C399EF70931D9 /* Pods-Golf-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7A1F4977B51C460DB21C56B /* Pods-Golf-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B04DD9306E154A7517439874 /* BFMeasurementEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = FD656FEE3E3ECA9A77475F14 /* BFMeasurementEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4E9BBBA58C9424E1794BC07 /* BFURL.m in Sources */ = {isa = PBXBuildFile; fileRef = F46837A7320310434BA5C5BB /* BFURL.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C3F5F89274E11B1C1C804DE3 /* BFExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D40F92C7CBD56CCC183B2F6 /* BFExecutor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CDBF1A757E4A0F9671FF5BDC /* BFAppLinkNavigation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A40DBEA9C93969AB9ACC28A /* BFAppLinkNavigation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE34D2BFA26D088E695F7FF6 /* BFAppLinkReturnToRefererView_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A2B72711CF59B827F0F822E /* BFAppLinkReturnToRefererView_Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFA76FFBCA9177E1F9D7E43E /* BFAppLink.h in Headers */ = {isa = PBXBuildFile; fileRef = CD2D79781851FD6F3DA34C3F /* BFAppLink.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBC72C4ECE0B5B1AA79B0CD1 /* BFTaskCompletionSource.m in Sources */ = {isa = PBXBuildFile; fileRef = BC476E6D3FE2209C285DC979 /* BFTaskCompletionSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DE07E7B6D2566F088297CBB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 624367883DF559E39D022428 /* Foundation.framework */; };
+		E74BAF852572438C14D930DF /* SwiftAddressBookDataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4A5CC21C7AD0D321757EB8 /* SwiftAddressBookDataStructures.swift */; };
+		ED197F966C2A43D9C0E49B5E /* Bolts.h in Headers */ = {isa = PBXBuildFile; fileRef = 41DE779EE986C2D3D6BB7D6C /* Bolts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DE4FDF3D498ABCB7A7D9961 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36B48C5A9BF709DDAEB674E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 160B303329B93537AAB5E0F0;
+			remoteInfo = "Pods-Golf-SwiftAddressBook";
+		};
+		726582667E3FB1EEC8CABEB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36B48C5A9BF709DDAEB674E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAE8B59EA45C7A1A1C1B8058;
+			remoteInfo = "Pods-Golf-Bolts";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01B1003DBB2F015CFA473693 /* Pods-Golf-SwiftAddressBook-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Golf-SwiftAddressBook-umbrella.h"; sourceTree = "<group>"; };
+		02614C0C5A4D52A9D5D8ECF2 /* Pods-Golf-SwiftAddressBook-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Golf-SwiftAddressBook-prefix.pch"; sourceTree = "<group>"; };
+		07C8078166D6410A9C79834A /* Pods-Golf-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Golf-environment.h"; sourceTree = "<group>"; };
+		08B2869D468D313BDFC1D91E /* Pods-Golf-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Golf-dummy.m"; sourceTree = "<group>"; };
+		19E4EB9B4EA3136583FD2665 /* BFAppLinkTarget.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFAppLinkTarget.m; path = Bolts/iOS/BFAppLinkTarget.m; sourceTree = "<group>"; };
+		1A93FFAA0A5FB9AD0218C9B5 /* SwiftAddressBookWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftAddressBookWrapper.swift; path = Pod/Classes/SwiftAddressBookWrapper.swift; sourceTree = "<group>"; };
+		1C3B5D0418F41216D9B8FF8F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CC7541B68725A59B6CDB659 /* SwiftAddressBookGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftAddressBookGroup.swift; path = Pod/Classes/SwiftAddressBookGroup.swift; sourceTree = "<group>"; };
+		1D40F92C7CBD56CCC183B2F6 /* BFExecutor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFExecutor.m; path = Bolts/Common/BFExecutor.m; sourceTree = "<group>"; };
+		1EAB6B7A8ECFADC143DE417C /* BFMeasurementEvent_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFMeasurementEvent_Internal.h; path = Bolts/iOS/BFMeasurementEvent_Internal.h; sourceTree = "<group>"; };
+		1FEB97F38DF937D5B77E113F /* Pods-Golf-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Golf-resources.sh"; sourceTree = "<group>"; };
+		23A8AB85070E42E27CB48CAC /* Bolts.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Bolts.m; path = Bolts/Common/Bolts.m; sourceTree = "<group>"; };
+		26292A75419F6EAFCE50251B /* BFAppLinkReturnToRefererView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkReturnToRefererView.h; path = Bolts/iOS/BFAppLinkReturnToRefererView.h; sourceTree = "<group>"; };
+		3A6BD17D2721E246EC70337B /* Pods-Golf-Bolts.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Golf-Bolts.xcconfig"; sourceTree = "<group>"; };
+		3A74173BF1967F1450BDB6B4 /* Pods_Golf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Golf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CD3FEA13EEA8C58A234C110 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EEFD861826E6DB3C06215CE /* Pods-Golf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Golf.debug.xcconfig"; sourceTree = "<group>"; };
+		41D7FE7B4766822B31364B25 /* Pods-Golf-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Golf-frameworks.sh"; sourceTree = "<group>"; };
+		41DE779EE986C2D3D6BB7D6C /* Bolts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Bolts.h; path = Bolts/Common/Bolts.h; sourceTree = "<group>"; };
+		44656FB2385B8A48DEF0B773 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		455853631B0FAB99BAED0C37 /* BFWebViewAppLinkResolver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFWebViewAppLinkResolver.m; path = Bolts/iOS/BFWebViewAppLinkResolver.m; sourceTree = "<group>"; };
+		46D5BAB804870A5253B9CD5B /* BFWebViewAppLinkResolver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFWebViewAppLinkResolver.h; path = Bolts/iOS/BFWebViewAppLinkResolver.h; sourceTree = "<group>"; };
+		49D648454F051E6BD5D8B658 /* Pods-Golf-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Golf-acknowledgements.plist"; sourceTree = "<group>"; };
+		4A2B72711CF59B827F0F822E /* BFAppLinkReturnToRefererView_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkReturnToRefererView_Internal.h; path = Bolts/iOS/BFAppLinkReturnToRefererView_Internal.h; sourceTree = "<group>"; };
+		4DC5CE521BD8DB0B91E514AF /* BoltsVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BoltsVersion.h; path = Bolts/Common/BoltsVersion.h; sourceTree = "<group>"; };
+		4FD8D02D05E2C6467A8DE51F /* Pods-Golf-Bolts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Golf-Bolts-prefix.pch"; sourceTree = "<group>"; };
+		55A0D88588725A470E39FE20 /* BFURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFURL.h; path = Bolts/iOS/BFURL.h; sourceTree = "<group>"; };
+		56D7C7936B8D1D7F89BDD53E /* BFAppLinkReturnToRefererController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFAppLinkReturnToRefererController.m; path = Bolts/iOS/BFAppLinkReturnToRefererController.m; sourceTree = "<group>"; };
+		58C650431557FEB19E759B3A /* SwiftAddressBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftAddressBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59B22C17D2BBEC355D4DCC6A /* SwiftAddressBookPerson.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftAddressBookPerson.swift; path = Pod/Classes/SwiftAddressBookPerson.swift; sourceTree = "<group>"; };
+		624367883DF559E39D022428 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		62EBC22EED65AB3D9836EEAC /* Pods-Golf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Golf.release.xcconfig"; sourceTree = "<group>"; };
+		6A40DBEA9C93969AB9ACC28A /* BFAppLinkNavigation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkNavigation.h; path = Bolts/iOS/BFAppLinkNavigation.h; sourceTree = "<group>"; };
+		6F8A6B35010412CEE36F6726 /* Pods-Golf-SwiftAddressBook-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Golf-SwiftAddressBook-Private.xcconfig"; sourceTree = "<group>"; };
+		7318181B50C588CCB5379C1A /* BFAppLinkResolving.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkResolving.h; path = Bolts/iOS/BFAppLinkResolving.h; sourceTree = "<group>"; };
+		7A654C7B06BAED806CC98F35 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		7BC00666573BA3C4B7E883EA /* BFAppLink.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFAppLink.m; path = Bolts/iOS/BFAppLink.m; sourceTree = "<group>"; };
+		83D8CA0F41288318BF5CD2DF /* BFAppLinkNavigation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFAppLinkNavigation.m; path = Bolts/iOS/BFAppLinkNavigation.m; sourceTree = "<group>"; };
+		873D39822BD210F4BE3D62E7 /* BFTaskCompletionSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFTaskCompletionSource.h; path = Bolts/Common/BFTaskCompletionSource.h; sourceTree = "<group>"; };
+		88F2DD442D9BB4CF3D54BFCD /* SwiftAddressBookSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftAddressBookSource.swift; path = Pod/Classes/SwiftAddressBookSource.swift; sourceTree = "<group>"; };
+		8D2FB94BCBD9EDE07EFE9148 /* BFTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFTask.m; path = Bolts/Common/BFTask.m; sourceTree = "<group>"; };
+		8DA2DA8D12FAA747A3A44C1E /* SwiftAddressBookHelperMethods.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftAddressBookHelperMethods.swift; path = Pod/Classes/SwiftAddressBookHelperMethods.swift; sourceTree = "<group>"; };
+		90DB818B0432DEAC0AA24D4E /* Pods-Golf.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Golf.modulemap"; sourceTree = "<group>"; };
+		93205C4CF81CE3C15B871F99 /* BFAppLinkReturnToRefererController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkReturnToRefererController.h; path = Bolts/iOS/BFAppLinkReturnToRefererController.h; sourceTree = "<group>"; };
+		97965377D0D4AD7B96555243 /* BFAppLinkTarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkTarget.h; path = Bolts/iOS/BFAppLinkTarget.h; sourceTree = "<group>"; };
+		97DBC0195382A50CBB0E117E /* Pods-Golf-SwiftAddressBook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Golf-SwiftAddressBook-dummy.m"; sourceTree = "<group>"; };
+		97EE2C919ABBE15DA844EBC3 /* Pods-Golf-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Golf-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A7A1F4977B51C460DB21C56B /* Pods-Golf-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Golf-umbrella.h"; sourceTree = "<group>"; };
+		A9C4A8195F08D2B85FDA75C0 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AEAFFE266E83B3FCE6F5080A /* BFURL_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFURL_Internal.h; path = Bolts/iOS/BFURL_Internal.h; sourceTree = "<group>"; };
+		B60FB17BD86A77329173E10F /* SwiftAddressBookRecord.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftAddressBookRecord.swift; path = Pod/Classes/SwiftAddressBookRecord.swift; sourceTree = "<group>"; };
+		BC476E6D3FE2209C285DC979 /* BFTaskCompletionSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFTaskCompletionSource.m; path = Bolts/Common/BFTaskCompletionSource.m; sourceTree = "<group>"; };
+		BC87D085D2372AED8BE3D7DF /* Pods-Golf-SwiftAddressBook.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Golf-SwiftAddressBook.modulemap"; sourceTree = "<group>"; };
+		C6575213C815A382890DCD8A /* BFTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFTask.h; path = Bolts/Common/BFTask.h; sourceTree = "<group>"; };
+		C953B79C76A13C32C00A0950 /* Pods-Golf-Bolts-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Golf-Bolts-Private.xcconfig"; sourceTree = "<group>"; };
+		CA62E43739D7B81FCD0164FE /* Pods-Golf-Bolts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Golf-Bolts.modulemap"; sourceTree = "<group>"; };
+		CD2D79781851FD6F3DA34C3F /* BFAppLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLink.h; path = Bolts/iOS/BFAppLink.h; sourceTree = "<group>"; };
+		D3756104AFE264B0BC8DA06C /* Pods-Golf-SwiftAddressBook.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Golf-SwiftAddressBook.xcconfig"; sourceTree = "<group>"; };
+		D3C07E82BD29E74A222C2F42 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AddressBookUI.framework; sourceTree = DEVELOPER_DIR; };
+		D4F42DDBDF8A68EA8D2593CB /* BFMeasurementEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFMeasurementEvent.m; path = Bolts/iOS/BFMeasurementEvent.m; sourceTree = "<group>"; };
+		D9574CAE0FCE1A312CAB13F8 /* BFExecutor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFExecutor.h; path = Bolts/Common/BFExecutor.h; sourceTree = "<group>"; };
+		DD0164C1E074CBD4B82256BC /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AddressBook.framework; sourceTree = DEVELOPER_DIR; };
+		DE4A5CC21C7AD0D321757EB8 /* SwiftAddressBookDataStructures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftAddressBookDataStructures.swift; path = Pod/Classes/SwiftAddressBookDataStructures.swift; sourceTree = "<group>"; };
+		E433F4243D1B9999D225B6C0 /* Pods-Golf-Bolts-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Golf-Bolts-umbrella.h"; sourceTree = "<group>"; };
+		F3D90BEAE7224F81D8B6C198 /* Pods-Golf-Bolts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Golf-Bolts-dummy.m"; sourceTree = "<group>"; };
+		F46837A7320310434BA5C5BB /* BFURL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFURL.m; path = Bolts/iOS/BFURL.m; sourceTree = "<group>"; };
+		F6F7B8C48C1C6ADF383AD16B /* Bolts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Bolts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD06D01E9932262B6FAE4DA0 /* BFAppLinkReturnToRefererView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFAppLinkReturnToRefererView.m; path = Bolts/iOS/BFAppLinkReturnToRefererView.m; sourceTree = "<group>"; };
+		FD656FEE3E3ECA9A77475F14 /* BFMeasurementEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFMeasurementEvent.h; path = Bolts/iOS/BFMeasurementEvent.h; sourceTree = "<group>"; };
+		FDAF82F1A89AD7E8A09E834B /* BFAppLink_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLink_Internal.h; path = Bolts/iOS/BFAppLink_Internal.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EA572D04B965C0F175F3E01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05637E7DDBB3E51A1A1EBA7B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FE8CA0F5761350CD6FC8D9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				700B775D029DD7ABDEF70E0F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5773C87E948CDE303C5B87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C45545885A5EFDC9DF9E477 /* AddressBook.framework in Frameworks */,
+				4CE7A58E5BEEA6E203B09592 /* AddressBookUI.framework in Frameworks */,
+				DE07E7B6D2566F088297CBB5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D9E8C9AF6D194B0E7667C19 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				940E7423250FE5E29AF34749 /* Pods-Golf */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1F84D70A858702693EA15216 /* Parse */ = {
+			isa = PBXGroup;
+			children = (
+				621013872402CF38B001A1F9 /* Frameworks */,
+			);
+			path = Parse;
+			sourceTree = "<group>";
+		};
+		450A0C0C3034E0DAC3B27485 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DD0164C1E074CBD4B82256BC /* AddressBook.framework */,
+				D3C07E82BD29E74A222C2F42 /* AddressBookUI.framework */,
+				624367883DF559E39D022428 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		61D76712AA87F0641A44989B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B00557D4B2C770ECB8896729 /* Bolts */,
+				1F84D70A858702693EA15216 /* Parse */,
+				DB00E1359B5E62E7058658E9 /* SwiftAddressBook */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		621013872402CF38B001A1F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A654C7B06BAED806CC98F35 /* Parse.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74DBBBB550DFC16D75959C07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6F7B8C48C1C6ADF383AD16B /* Bolts.framework */,
+				3A74173BF1967F1450BDB6B4 /* Pods_Golf.framework */,
+				58C650431557FEB19E759B3A /* SwiftAddressBook.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D4FB2C9E2BF2106F6BE8E05 = {
+			isa = PBXGroup;
+			children = (
+				A9C4A8195F08D2B85FDA75C0 /* Podfile */,
+				ADC095B6614A4A2103CFA7DE /* Frameworks */,
+				61D76712AA87F0641A44989B /* Pods */,
+				74DBBBB550DFC16D75959C07 /* Products */,
+				0D9E8C9AF6D194B0E7667C19 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		940E7423250FE5E29AF34749 /* Pods-Golf */ = {
+			isa = PBXGroup;
+			children = (
+				3CD3FEA13EEA8C58A234C110 /* Info.plist */,
+				90DB818B0432DEAC0AA24D4E /* Pods-Golf.modulemap */,
+				97EE2C919ABBE15DA844EBC3 /* Pods-Golf-acknowledgements.markdown */,
+				49D648454F051E6BD5D8B658 /* Pods-Golf-acknowledgements.plist */,
+				08B2869D468D313BDFC1D91E /* Pods-Golf-dummy.m */,
+				07C8078166D6410A9C79834A /* Pods-Golf-environment.h */,
+				41D7FE7B4766822B31364B25 /* Pods-Golf-frameworks.sh */,
+				1FEB97F38DF937D5B77E113F /* Pods-Golf-resources.sh */,
+				A7A1F4977B51C460DB21C56B /* Pods-Golf-umbrella.h */,
+				3EEFD861826E6DB3C06215CE /* Pods-Golf.debug.xcconfig */,
+				62EBC22EED65AB3D9836EEAC /* Pods-Golf.release.xcconfig */,
+			);
+			name = "Pods-Golf";
+			path = "Target Support Files/Pods-Golf";
+			sourceTree = "<group>";
+		};
+		ADC095B6614A4A2103CFA7DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				450A0C0C3034E0DAC3B27485 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B00557D4B2C770ECB8896729 /* Bolts */ = {
+			isa = PBXGroup;
+			children = (
+				CD2D79781851FD6F3DA34C3F /* BFAppLink.h */,
+				7BC00666573BA3C4B7E883EA /* BFAppLink.m */,
+				6A40DBEA9C93969AB9ACC28A /* BFAppLinkNavigation.h */,
+				83D8CA0F41288318BF5CD2DF /* BFAppLinkNavigation.m */,
+				7318181B50C588CCB5379C1A /* BFAppLinkResolving.h */,
+				93205C4CF81CE3C15B871F99 /* BFAppLinkReturnToRefererController.h */,
+				56D7C7936B8D1D7F89BDD53E /* BFAppLinkReturnToRefererController.m */,
+				26292A75419F6EAFCE50251B /* BFAppLinkReturnToRefererView.h */,
+				FD06D01E9932262B6FAE4DA0 /* BFAppLinkReturnToRefererView.m */,
+				4A2B72711CF59B827F0F822E /* BFAppLinkReturnToRefererView_Internal.h */,
+				97965377D0D4AD7B96555243 /* BFAppLinkTarget.h */,
+				19E4EB9B4EA3136583FD2665 /* BFAppLinkTarget.m */,
+				FDAF82F1A89AD7E8A09E834B /* BFAppLink_Internal.h */,
+				D9574CAE0FCE1A312CAB13F8 /* BFExecutor.h */,
+				1D40F92C7CBD56CCC183B2F6 /* BFExecutor.m */,
+				FD656FEE3E3ECA9A77475F14 /* BFMeasurementEvent.h */,
+				D4F42DDBDF8A68EA8D2593CB /* BFMeasurementEvent.m */,
+				1EAB6B7A8ECFADC143DE417C /* BFMeasurementEvent_Internal.h */,
+				C6575213C815A382890DCD8A /* BFTask.h */,
+				8D2FB94BCBD9EDE07EFE9148 /* BFTask.m */,
+				873D39822BD210F4BE3D62E7 /* BFTaskCompletionSource.h */,
+				BC476E6D3FE2209C285DC979 /* BFTaskCompletionSource.m */,
+				55A0D88588725A470E39FE20 /* BFURL.h */,
+				F46837A7320310434BA5C5BB /* BFURL.m */,
+				AEAFFE266E83B3FCE6F5080A /* BFURL_Internal.h */,
+				46D5BAB804870A5253B9CD5B /* BFWebViewAppLinkResolver.h */,
+				455853631B0FAB99BAED0C37 /* BFWebViewAppLinkResolver.m */,
+				41DE779EE986C2D3D6BB7D6C /* Bolts.h */,
+				23A8AB85070E42E27CB48CAC /* Bolts.m */,
+				4DC5CE521BD8DB0B91E514AF /* BoltsVersion.h */,
+				CD4977B3D91DE03E1127D5B8 /* Support Files */,
+			);
+			path = Bolts;
+			sourceTree = "<group>";
+		};
+		CD4977B3D91DE03E1127D5B8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				44656FB2385B8A48DEF0B773 /* Info.plist */,
+				CA62E43739D7B81FCD0164FE /* Pods-Golf-Bolts.modulemap */,
+				3A6BD17D2721E246EC70337B /* Pods-Golf-Bolts.xcconfig */,
+				C953B79C76A13C32C00A0950 /* Pods-Golf-Bolts-Private.xcconfig */,
+				F3D90BEAE7224F81D8B6C198 /* Pods-Golf-Bolts-dummy.m */,
+				4FD8D02D05E2C6467A8DE51F /* Pods-Golf-Bolts-prefix.pch */,
+				E433F4243D1B9999D225B6C0 /* Pods-Golf-Bolts-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Golf-Bolts";
+			sourceTree = "<group>";
+		};
+		DB00E1359B5E62E7058658E9 /* SwiftAddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				DE4A5CC21C7AD0D321757EB8 /* SwiftAddressBookDataStructures.swift */,
+				1CC7541B68725A59B6CDB659 /* SwiftAddressBookGroup.swift */,
+				8DA2DA8D12FAA747A3A44C1E /* SwiftAddressBookHelperMethods.swift */,
+				59B22C17D2BBEC355D4DCC6A /* SwiftAddressBookPerson.swift */,
+				B60FB17BD86A77329173E10F /* SwiftAddressBookRecord.swift */,
+				88F2DD442D9BB4CF3D54BFCD /* SwiftAddressBookSource.swift */,
+				1A93FFAA0A5FB9AD0218C9B5 /* SwiftAddressBookWrapper.swift */,
+				EA55C17989DB32AAC640CF61 /* Support Files */,
+			);
+			path = SwiftAddressBook;
+			sourceTree = "<group>";
+		};
+		EA55C17989DB32AAC640CF61 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C3B5D0418F41216D9B8FF8F /* Info.plist */,
+				BC87D085D2372AED8BE3D7DF /* Pods-Golf-SwiftAddressBook.modulemap */,
+				D3756104AFE264B0BC8DA06C /* Pods-Golf-SwiftAddressBook.xcconfig */,
+				6F8A6B35010412CEE36F6726 /* Pods-Golf-SwiftAddressBook-Private.xcconfig */,
+				97DBC0195382A50CBB0E117E /* Pods-Golf-SwiftAddressBook-dummy.m */,
+				02614C0C5A4D52A9D5D8ECF2 /* Pods-Golf-SwiftAddressBook-prefix.pch */,
+				01B1003DBB2F015CFA473693 /* Pods-Golf-SwiftAddressBook-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Golf-SwiftAddressBook";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		621000D0C86AB329FA553F42 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09298694EDEC6A4964DED405 /* Pods-Golf-SwiftAddressBook-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D695B32380286D7F1EC26696 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA76FFBCA9177E1F9D7E43E /* BFAppLink.h in Headers */,
+				CDBF1A757E4A0F9671FF5BDC /* BFAppLinkNavigation.h in Headers */,
+				21C92B84C54A39381D03AC20 /* BFAppLinkResolving.h in Headers */,
+				2E8600AFBA802CA48F941378 /* BFAppLinkReturnToRefererController.h in Headers */,
+				93FE14B2C9EE2592075E4878 /* BFAppLinkReturnToRefererView.h in Headers */,
+				CE34D2BFA26D088E695F7FF6 /* BFAppLinkReturnToRefererView_Internal.h in Headers */,
+				7F623F9283ED3774F97DD529 /* BFAppLinkTarget.h in Headers */,
+				9B17EA8CBDA6848CAC03A979 /* BFAppLink_Internal.h in Headers */,
+				6E6D8026B16A1C8AE9B5DDB8 /* BFExecutor.h in Headers */,
+				B04DD9306E154A7517439874 /* BFMeasurementEvent.h in Headers */,
+				8F8DCC65B4ADF0AD90FAE14E /* BFMeasurementEvent_Internal.h in Headers */,
+				A505BFCC8A898B3E0C2D45D2 /* BFTask.h in Headers */,
+				ACB6758229795AF81D7A6735 /* BFTaskCompletionSource.h in Headers */,
+				7221E47E2E4067D6C7436238 /* BFURL.h in Headers */,
+				2CFF80AE5F4F6CD3903F9C97 /* BFURL_Internal.h in Headers */,
+				3BB85ADE989C055A1DDD11BF /* BFWebViewAppLinkResolver.h in Headers */,
+				ED197F966C2A43D9C0E49B5E /* Bolts.h in Headers */,
+				7CE17515B585A9095512E748 /* BoltsVersion.h in Headers */,
+				0467E61702365242F67C3DEC /* Pods-Golf-Bolts-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E59520120EFB302EBC4ABA45 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6BD0D8EF7C399EF70931D9 /* Pods-Golf-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		160B303329B93537AAB5E0F0 /* Pods-Golf-SwiftAddressBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E48ABB8BB97598F04B8F1E55 /* Build configuration list for PBXNativeTarget "Pods-Golf-SwiftAddressBook" */;
+			buildPhases = (
+				0C63F44BBB8727897ECF75E1 /* Sources */,
+				BA5773C87E948CDE303C5B87 /* Frameworks */,
+				621000D0C86AB329FA553F42 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Golf-SwiftAddressBook";
+			productName = "Pods-Golf-SwiftAddressBook";
+			productReference = 58C650431557FEB19E759B3A /* SwiftAddressBook.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		57AE0D6DDE4E290667C3C13E /* Pods-Golf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1563E693B2A26B6F357D6929 /* Build configuration list for PBXNativeTarget "Pods-Golf" */;
+			buildPhases = (
+				FAD9625497FF2A61BA1D1263 /* Sources */,
+				0EA572D04B965C0F175F3E01 /* Frameworks */,
+				E59520120EFB302EBC4ABA45 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45B4E478BC2819B2561FE020 /* PBXTargetDependency */,
+				0EBAD4C0C8E50EFC44EA18B0 /* PBXTargetDependency */,
+			);
+			name = "Pods-Golf";
+			productName = "Pods-Golf";
+			productReference = 3A74173BF1967F1450BDB6B4 /* Pods_Golf.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BAE8B59EA45C7A1A1C1B8058 /* Pods-Golf-Bolts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D509AC5881C8A14B928B5AD7 /* Build configuration list for PBXNativeTarget "Pods-Golf-Bolts" */;
+			buildPhases = (
+				8834F9F7C0687BE4FEE8BDC8 /* Sources */,
+				0FE8CA0F5761350CD6FC8D9F /* Frameworks */,
+				D695B32380286D7F1EC26696 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Golf-Bolts";
+			productName = "Pods-Golf-Bolts";
+			productReference = F6F7B8C48C1C6ADF383AD16B /* Bolts.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36B48C5A9BF709DDAEB674E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = B8FDB77BE06463B700B4023F /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7D4FB2C9E2BF2106F6BE8E05;
+			productRefGroup = 74DBBBB550DFC16D75959C07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57AE0D6DDE4E290667C3C13E /* Pods-Golf */,
+				BAE8B59EA45C7A1A1C1B8058 /* Pods-Golf-Bolts */,
+				160B303329B93537AAB5E0F0 /* Pods-Golf-SwiftAddressBook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C63F44BBB8727897ECF75E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B4C0CFDC7B2BFBB4C818C7 /* Pods-Golf-SwiftAddressBook-dummy.m in Sources */,
+				E74BAF852572438C14D930DF /* SwiftAddressBookDataStructures.swift in Sources */,
+				948941940E1B82F27BBFE9FA /* SwiftAddressBookGroup.swift in Sources */,
+				2F90D449B0BF1015F6CFF92A /* SwiftAddressBookHelperMethods.swift in Sources */,
+				1ED8F7EE669780C3A3480AED /* SwiftAddressBookPerson.swift in Sources */,
+				1ADAB4AF92171B2D21FF5A46 /* SwiftAddressBookRecord.swift in Sources */,
+				4CFA0421C8C74A6EE984A0F4 /* SwiftAddressBookSource.swift in Sources */,
+				7461DB6F0E7B7B3DAA480FAD /* SwiftAddressBookWrapper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8834F9F7C0687BE4FEE8BDC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E2185BDDC8416BC888AB28A /* BFAppLink.m in Sources */,
+				489B08470DE243AD8B59DA28 /* BFAppLinkNavigation.m in Sources */,
+				31A5CB56B49D881F30E22397 /* BFAppLinkReturnToRefererController.m in Sources */,
+				26490449B3A9D3A47C3B7B43 /* BFAppLinkReturnToRefererView.m in Sources */,
+				5673BC5C7203D38697F0D6AF /* BFAppLinkTarget.m in Sources */,
+				C3F5F89274E11B1C1C804DE3 /* BFExecutor.m in Sources */,
+				864CBDC3DCCBEB66F2B8F2F0 /* BFMeasurementEvent.m in Sources */,
+				796A2AC5D2CC274D1D805651 /* BFTask.m in Sources */,
+				DBC72C4ECE0B5B1AA79B0CD1 /* BFTaskCompletionSource.m in Sources */,
+				B4E9BBBA58C9424E1794BC07 /* BFURL.m in Sources */,
+				89E57F560C52B0366B7BD603 /* BFWebViewAppLinkResolver.m in Sources */,
+				26D31BBD585898FDB60BDE4F /* Bolts.m in Sources */,
+				31BF4386EAC08FA0C7C99780 /* Pods-Golf-Bolts-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD9625497FF2A61BA1D1263 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				982D4A18F226F302BB5F3E4D /* Pods-Golf-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0EBAD4C0C8E50EFC44EA18B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Golf-SwiftAddressBook";
+			target = 160B303329B93537AAB5E0F0 /* Pods-Golf-SwiftAddressBook */;
+			targetProxy = 2DE4FDF3D498ABCB7A7D9961 /* PBXContainerItemProxy */;
+		};
+		45B4E478BC2819B2561FE020 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Golf-Bolts";
+			target = BAE8B59EA45C7A1A1C1B8058 /* Pods-Golf-Bolts */;
+			targetProxy = 726582667E3FB1EEC8CABEB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F9D56BEF6AA7C2CA3E2A69F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F8A6B35010412CEE36F6726 /* Pods-Golf-SwiftAddressBook-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Golf-SwiftAddressBook/Pods-Golf-SwiftAddressBook-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Golf-SwiftAddressBook/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Golf-SwiftAddressBook/Pods-Golf-SwiftAddressBook.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftAddressBook;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		27D042CDDC8E2AFBC3180A93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F8A6B35010412CEE36F6726 /* Pods-Golf-SwiftAddressBook-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Golf-SwiftAddressBook/Pods-Golf-SwiftAddressBook-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Golf-SwiftAddressBook/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Golf-SwiftAddressBook/Pods-Golf-SwiftAddressBook.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftAddressBook;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4564FEC2DEA9702164557316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64E0BD585A1B08A2624444BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C953B79C76A13C32C00A0950 /* Pods-Golf-Bolts-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Golf-Bolts/Pods-Golf-Bolts-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Golf-Bolts/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Golf-Bolts/Pods-Golf-Bolts.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Bolts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		972FAEA536DA75E8661F5B90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62EBC22EED65AB3D9836EEAC /* Pods-Golf.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Golf/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Golf/Pods-Golf.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Golf;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9750FF8EF1D9F5B65BC378A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B38E64D4B2DE011B74226AED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C953B79C76A13C32C00A0950 /* Pods-Golf-Bolts-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Golf-Bolts/Pods-Golf-Bolts-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Golf-Bolts/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Golf-Bolts/Pods-Golf-Bolts.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Bolts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E89B3841DB06257CDDDBD3E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EEFD861826E6DB3C06215CE /* Pods-Golf.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Golf/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Golf/Pods-Golf.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Golf;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1563E693B2A26B6F357D6929 /* Build configuration list for PBXNativeTarget "Pods-Golf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E89B3841DB06257CDDDBD3E4 /* Debug */,
+				972FAEA536DA75E8661F5B90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8FDB77BE06463B700B4023F /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9750FF8EF1D9F5B65BC378A7 /* Debug */,
+				4564FEC2DEA9702164557316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D509AC5881C8A14B928B5AD7 /* Build configuration list for PBXNativeTarget "Pods-Golf-Bolts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B38E64D4B2DE011B74226AED /* Debug */,
+				64E0BD585A1B08A2624444BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E48ABB8BB97598F04B8F1E55 /* Build configuration list for PBXNativeTarget "Pods-Golf-SwiftAddressBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27D042CDDC8E2AFBC3180A93 /* Debug */,
+				1F9D56BEF6AA7C2CA3E2A69F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36B48C5A9BF709DDAEB674E2 /* Project object */;
+}
