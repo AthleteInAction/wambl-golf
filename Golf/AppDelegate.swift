@@ -18,23 +18,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         Parse.setApplicationId("ZLIHKPqBIVc18EXt6c2yk7Ex8iFWoKcBgwD1JjNy", clientKey: "T0OekrIYHvmeCH1ksbdwanFfWENxy3hTvsFig61y")
         
-        if PFUser.currentUser() != nil {
-            
-            // USER IS LOGGED IN
-            var newStoryboard = UIStoryboard(name: "In", bundle: nil)
-            var vc = newStoryboard.instantiateViewControllerWithIdentifier("dashboard_ctrl") as DashboardCtrl
-            var nav = UINavigationController(rootViewController: vc)
-            root.rootViewController = nav
-            
-        } else {
-            
-            // USER IS LOGGED OUT
-            var newStoryboard = UIStoryboard(name: "Out", bundle: nil)
-            var vc = newStoryboard.instantiateViewControllerWithIdentifier("login_ctrl") as LoginCtrl
-            var nav = UINavigationController(rootViewController: vc)
-            root.rootViewController = nav
-            
-        }
+        var newStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        var vc = newStoryboard.instantiateViewControllerWithIdentifier("view_ctrl") as UIViewController
+        var nav = UINavigationController(rootViewController: vc)
+        root.rootViewController = nav
         
         root.makeKeyAndVisible()
         
