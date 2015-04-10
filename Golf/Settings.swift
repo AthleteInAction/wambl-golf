@@ -34,8 +34,6 @@ class Settings: NSObject {
                     
                     let set = object as NSManagedObject
                     
-                    println(set)
-                    
                     if set.valueForKey("type") as String == "accuracy" {
                         
                         accuracyObj = set

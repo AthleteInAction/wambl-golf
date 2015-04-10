@@ -22,6 +22,11 @@
 		A65321BF1AD7481D000D68A2 /* SettingsCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65321BE1AD7481D000D68A2 /* SettingsCtrl.swift */; };
 		A65321C11AD76718000D68A2 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65321C01AD76718000D68A2 /* Settings.swift */; };
 		A65321C31AD7743B000D68A2 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65321C21AD7743B000D68A2 /* Globals.swift */; };
+		A6557B001AD7A639001A1500 /* RoundsCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6557AFF1AD7A639001A1500 /* RoundsCtrl.swift */; };
+		A6557B031AD7A6C1001A1500 /* Rounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6557B021AD7A6C1001A1500 /* Rounds.swift */; };
+		A6557B061AD7A8C2001A1500 /* Round.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6557B051AD7A8C2001A1500 /* Round.swift */; };
+		A6557B081AD84676001A1500 /* NewRoundCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6557B071AD84676001A1500 /* NewRoundCtrl.swift */; };
+		A6557B0B1AD84DCA001A1500 /* AddPlayersCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6557B0A1AD84DCA001A1500 /* AddPlayersCtrl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +60,11 @@
 		A65321BE1AD7481D000D68A2 /* SettingsCtrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsCtrl.swift; sourceTree = "<group>"; };
 		A65321C01AD76718000D68A2 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		A65321C21AD7743B000D68A2 /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		A6557AFF1AD7A639001A1500 /* RoundsCtrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundsCtrl.swift; sourceTree = "<group>"; };
+		A6557B021AD7A6C1001A1500 /* Rounds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rounds.swift; sourceTree = "<group>"; };
+		A6557B051AD7A8C2001A1500 /* Round.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Round.swift; sourceTree = "<group>"; };
+		A6557B071AD84676001A1500 /* NewRoundCtrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRoundCtrl.swift; sourceTree = "<group>"; };
+		A6557B0A1AD84DCA001A1500 /* AddPlayersCtrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPlayersCtrl.swift; sourceTree = "<group>"; };
 		AC74961EA974FECB21301155 /* Pods_Golf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Golf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6B6114D63DA577A4CD4049D /* Pods-Golf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Golf.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Golf/Pods-Golf.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -109,6 +119,7 @@
 		A65321831AD71CBB000D68A2 /* Golf */ = {
 			isa = PBXGroup;
 			children = (
+				A6557B011AD7A6AE001A1500 /* Objects */,
 				A65321AF1AD72254000D68A2 /* Tools */,
 				A65321861AD71CBC000D68A2 /* AppDelegate.swift */,
 				A65321AC1AD720D5000D68A2 /* CTRL */,
@@ -150,6 +161,7 @@
 		A65321AC1AD720D5000D68A2 /* CTRL */ = {
 			isa = PBXGroup;
 			children = (
+				A6557AFE1AD7A613001A1500 /* Rounds */,
 				A65321BD1AD747F4000D68A2 /* Settings */,
 				A65321BA1AD72B90000D68A2 /* Dashboard */,
 				A65321B91AD728AE000D68A2 /* Login */,
@@ -199,6 +211,41 @@
 				A65321BE1AD7481D000D68A2 /* SettingsCtrl.swift */,
 			);
 			name = Settings;
+			sourceTree = "<group>";
+		};
+		A6557AFE1AD7A613001A1500 /* Rounds */ = {
+			isa = PBXGroup;
+			children = (
+				A6557AFF1AD7A639001A1500 /* RoundsCtrl.swift */,
+				A6557B091AD84D32001A1500 /* NewRound */,
+			);
+			name = Rounds;
+			sourceTree = "<group>";
+		};
+		A6557B011AD7A6AE001A1500 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				A6557B041AD7A8AE001A1500 /* Rounds */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		A6557B041AD7A8AE001A1500 /* Rounds */ = {
+			isa = PBXGroup;
+			children = (
+				A6557B021AD7A6C1001A1500 /* Rounds.swift */,
+				A6557B051AD7A8C2001A1500 /* Round.swift */,
+			);
+			name = Rounds;
+			sourceTree = "<group>";
+		};
+		A6557B091AD84D32001A1500 /* NewRound */ = {
+			isa = PBXGroup;
+			children = (
+				A6557B071AD84676001A1500 /* NewRoundCtrl.swift */,
+				A6557B0A1AD84DCA001A1500 /* AddPlayersCtrl.swift */,
+			);
+			name = NewRound;
 			sourceTree = "<group>";
 		};
 		D34C4B86F365D61B58D6F696 /* Pods */ = {
@@ -365,11 +412,16 @@
 				A653218C1AD71CBC000D68A2 /* LoginCtrl.swift in Sources */,
 				A65321871AD71CBC000D68A2 /* AppDelegate.swift in Sources */,
 				A65321C11AD76718000D68A2 /* Settings.swift in Sources */,
+				A6557B031AD7A6C1001A1500 /* Rounds.swift in Sources */,
+				A6557B001AD7A639001A1500 /* RoundsCtrl.swift in Sources */,
 				A653218A1AD71CBC000D68A2 /* Golf.xcdatamodeld in Sources */,
 				A65321BF1AD7481D000D68A2 /* SettingsCtrl.swift in Sources */,
+				A6557B0B1AD84DCA001A1500 /* AddPlayersCtrl.swift in Sources */,
 				A65321BC1AD72BAD000D68A2 /* DashboardCtrl.swift in Sources */,
+				A6557B081AD84676001A1500 /* NewRoundCtrl.swift in Sources */,
 				A65321B31AD72294000D68A2 /* Error.swift in Sources */,
 				A65321B11AD7226F000D68A2 /* Tools.swift in Sources */,
+				A6557B061AD7A8C2001A1500 /* Round.swift in Sources */,
 				A65321C31AD7743B000D68A2 /* Globals.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
