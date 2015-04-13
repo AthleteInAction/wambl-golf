@@ -51,3 +51,61 @@ extension PFUser {
     }
     
 }
+
+extension String {
+    
+    subscript (i: Int) -> Character {
+        return self[advance(self.startIndex, i)]
+    }
+    
+    subscript (i: Int) -> String {
+        return String(self[i] as Character)
+    }
+    
+    subscript (r: Range<Int>) -> String {
+        return substringWithRange(Range(start: advance(startIndex, r.startIndex), end: advance(startIndex, r.endIndex)))
+    }
+    
+    var toPhone: String {
+        
+        var s = self
+        
+        var regex: NSRegularExpression = NSRegularExpression(pattern: "\\W", options: NSRegularExpressionOptions.CaseInsensitive, error: nil)!
+        s = regex.stringByReplacingMatchesInString(s, options: nil, range: NSMakeRange(0,countElements(s)), withTemplate: "")
+        
+        if countElements(s) < 11 {
+            s = "1\(s)"
+        }
+        
+        return s
+        
+    }
+    
+}
+
+
+extension Array {
+    
+    func compare(items: [String]) -> Bool {
+        
+        for s in self {
+            
+            let z: String = s as String
+            
+            for i in items {
+                
+                if z.lowercaseString == i.lowercaseString {
+                    
+                    return true
+                    
+                }
+                
+            }
+            
+        }
+        
+        return false
+        
+    }
+    
+}

@@ -21,6 +21,8 @@
 		A6557B031AD7A6C1001A1500 /* Rounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6557B021AD7A6C1001A1500 /* Rounds.swift */; };
 		A6557B061AD7A8C2001A1500 /* Round.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6557B051AD7A8C2001A1500 /* Round.swift */; };
 		A6557B0D1AD85007001A1500 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6557B0C1AD85007001A1500 /* ViewController.swift */; };
+		A68147911AD9D0C100172D8D /* Collate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68147901AD9D0C100172D8D /* Collate.swift */; };
+		A68147941AD9E37300172D8D /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68147931AD9E37300172D8D /* Contacts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		A6557B021AD7A6C1001A1500 /* Rounds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rounds.swift; sourceTree = "<group>"; };
 		A6557B051AD7A8C2001A1500 /* Round.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Round.swift; sourceTree = "<group>"; };
 		A6557B0C1AD85007001A1500 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A68147901AD9D0C100172D8D /* Collate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Collate.swift; sourceTree = "<group>"; };
+		A68147931AD9E37300172D8D /* Contacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
 		AC74961EA974FECB21301155 /* Pods_Golf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Golf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6B6114D63DA577A4CD4049D /* Pods-Golf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Golf.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Golf/Pods-Golf.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -168,6 +172,8 @@
 		A6557B011AD7A6AE001A1500 /* Objects */ = {
 			isa = PBXGroup;
 			children = (
+				A68147921AD9E36500172D8D /* Contacts */,
+				A681478F1AD9D0A800172D8D /* Collate */,
 				A6557B041AD7A8AE001A1500 /* Rounds */,
 			);
 			name = Objects;
@@ -180,6 +186,22 @@
 				A6557B051AD7A8C2001A1500 /* Round.swift */,
 			);
 			name = Rounds;
+			sourceTree = "<group>";
+		};
+		A681478F1AD9D0A800172D8D /* Collate */ = {
+			isa = PBXGroup;
+			children = (
+				A68147901AD9D0C100172D8D /* Collate.swift */,
+			);
+			name = Collate;
+			sourceTree = "<group>";
+		};
+		A68147921AD9E36500172D8D /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				A68147931AD9E37300172D8D /* Contacts.swift */,
+			);
+			name = Contacts;
 			sourceTree = "<group>";
 		};
 		D34C4B86F365D61B58D6F696 /* Pods */ = {
@@ -346,7 +368,9 @@
 				A65321C11AD76718000D68A2 /* Settings.swift in Sources */,
 				A6557B031AD7A6C1001A1500 /* Rounds.swift in Sources */,
 				A6557B0D1AD85007001A1500 /* ViewController.swift in Sources */,
+				A68147911AD9D0C100172D8D /* Collate.swift in Sources */,
 				A653218A1AD71CBC000D68A2 /* Golf.xcdatamodeld in Sources */,
+				A68147941AD9E37300172D8D /* Contacts.swift in Sources */,
 				A65321B31AD72294000D68A2 /* Error.swift in Sources */,
 				A65321B11AD7226F000D68A2 /* Tools.swift in Sources */,
 				A6557B061AD7A8C2001A1500 /* Round.swift in Sources */,
